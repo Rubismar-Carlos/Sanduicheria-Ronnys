@@ -1,0 +1,206 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.logo-incio {
+    width: 100%;
+}
+.img-logo {
+    width: 100%;
+    justify-items: center;
+    padding-top: 50px;
+}
+.slide-img {
+    width: 600px;
+    height: 300px;
+    justify-items: center;
+}
+.img-creme-limao {
+    width: 70%;
+    height: 300px;
+}
+.img-acai {
+    width: 100%;
+    height: 300px;
+}
+.img-sanduiche {
+    width: 80%;
+    height: 300px;
+}
+.img-batata {
+    width: 100%;
+    height: 300px;
+}
+.instagram {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+.img-insta {
+    display: flex;
+}
+.img-insta h4 {
+    padding-top: 13px;
+}
+@media (min-width: 1500px) {
+    .slide-img- {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        height: 350px;
+        padding: 20px 0px;
+        background-color: #ec0404d8;
+    }
+    .menu-lanches-informativo {
+        margin-top: 30px;
+        font-size: 3em;
+        color: #ec0404;
+        font-style: italic;
+    }
+    span h1{
+        color: black;
+        font-size: 0.7em;
+    }
+    .menu-lanches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 60px;
+        height: 500px;
+    }
+    .item-lanche {
+        text-align: center;
+        width: 300px;
+        height: 350px;
+    }
+    .item-lanche h3 {
+        padding-top: 10px;
+        font-size: 25pt;
+        color: #ec0404;
+    }
+    .item-img {
+        width: 300px;
+        height: 300px;
+    }
+    .quem-somos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        height: 500px;
+        background-color: lightgrey;
+        gap: 20px;
+    }
+    .quem-somos-img {
+        width: 800px;
+        height: 400px;
+
+    }
+    .quem-somos-img img {
+        width: 100%;
+        height: 400px;
+        border-radius: 15px;
+    }
+    .quem-somos-texto {
+        width: 700px;
+        height: 300px;;
+        text-align: justify;
+        font-size: 19pt;
+        font-weight: bold;
+        text-indent: 30px;
+        padding: 0px 10px;
+
+    }
+    .informativo-instagram {
+        color: #ec0404;
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 1499px) {
+    .slide-img- {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        height: 200px;
+        padding: 20px 0px;
+        background-color: #ec0404d8;
+    }
+    iframe {
+        width: 100%;
+    }
+    .menu-lanches-informativo > h1 {
+        color: #ec0404;
+    }
+    span {
+        color: black;
+        font-size: 0.5em;
+    }
+    .menu-lanches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .item-lanche {
+        text-align: center;
+        width: 300px;
+        height: 350px;
+    }
+    .item-lanche h3 {
+        padding-top: 10px;
+        font-size: 25pt;
+        color: #ec0404;
+    }
+    .item-img {
+        width: 300px;
+        height: 300px;
+    }
+    .quem-somos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 50px;
+        background-color: lightgrey;
+    }
+    .quem-somos-img {
+        width: 90%;
+        height: 300px;
+    }
+    .quem-somos-img img {
+        width: 100%;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .quem-somos-texto {
+        width: 100%;
+        text-align: justify;
+        font-size: 13pt;
+        font-weight: bold;
+        text-indent: 20px;
+        padding: 10px;
+    }
+    .menu-lanches-informativo {
+        margin-top: 30px;
+        font-size: 2em;
+        font-style: italic;
+    }
+    .informativo-instagram {
+        color: #ec0404;
+        font-size: 2em;
+    }
+}
+

@@ -1,0 +1,154 @@
+@charset "UTF-8";
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.acompanhamentos {
+    padding-top: 20px;
+}
+.acompanhamentos  h4 {
+    color: #ec0404;
+}
+.acompanhamentos h5 {
+    color: black;
+}
+.adcionais-acai h4 {
+    color: #ec0404;
+}
+.outras-bebidas h4 {
+    color: #ec0404;
+}
+.outras-bebidas-refrigerantes h5 {
+    color: black;
+}
+.sanduicherias h5 {
+    color: yellow;
+}
+.img-ovomaltine {
+    width: 60%;
+    height: 300px;
+    padding-top: 10px;
+}
+.img-acai {
+    width: 80%;
+    height: 300px;
+    padding-top: 10px;
+}
+.img-creme-limao {
+    padding-top: 10px;
+    width: 80%;
+    height: 300px;
+}
+span {
+    color: #ec0404;
+    font-size: 20pt;
+}
+.item-valor h4 {
+    color: black;
+}
+@media (min-width: 605px) {
+    .items {
+        gap: 30px;
+    }
+    .menu {
+        gap: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .menu h2 {
+        padding-bottom: 20px;
+    }
+    .acompanhamentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        gap: 30px;
+        padding-bottom: 30px;
+        background-color: lightgrey;
+    }
+    .acompanhamentos-items {
+        text-align: center;
+    }
+    .acompanhamentos-items h4 {
+        margin-bottom: 10px;
+    }
+    .acompanhamentos-items h5 {
+        margin-bottom: 20px;
+    }
+    .caixa {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .outras-bebidas {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .outras-bebidas-refrigerantes {
+        margin-bottom: 20px;
+    }
+    .adcionais-acai {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 604px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+    .items {
+        gap: 10px;
+    }
+    .menu h2 {
+        padding-bottom: 20px;
+    }
+    .acompanhamentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        gap: 30px;
+        padding-bottom: 30px;
+        background-color: lightgrey;
+    }
+    .acompanhamentos-items {
+        text-align: center;
+    }
+    .acompanhamentos-items h4 {
+        margin-bottom: 10px;
+    }
+    .acompanhamentos-items h5 {
+        margin-bottom: 20px;
+    }
+    .caixa {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+    .outras-bebidas {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .outras-bebidas-refrigerantes {
+        margin-bottom: 20px;
+    }
+    .adcionais-acai {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}

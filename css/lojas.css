@@ -1,0 +1,117 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(211, 211, 211, 0.596);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.identificar {
+    text-align: center;
+    margin: 30px 0px;
+    font-style: italic;
+}
+.identificar h4 {
+    color: #ec0404;
+}
+.identificar span {
+    color: blue;
+}
+.lojas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.lojas a {
+    color: white;
+}
+.lojas a:hover {
+    color: yellow;
+}
+.caixa-lojas {
+    width: 220px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.caixa-lojas h2 {
+    padding-top: 15px;
+}
+.nome-loja {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 3em;
+    color: #ec0404;
+    font-style: italic;
+}
+.img-loja {
+    display: flex;
+    justify-content: center;
+}
+.img-loja img {
+    border-radius: 10px ;
+}
+.horario {
+    text-align: center;
+    margin: 30px 0px;
+}
+.contato {
+    margin: 30px 0px;
+}
+.contato a {
+    color: #ec0404;
+}
+.contato h4 {
+   padding-bottom: 5px;
+   padding-left: 5px;
+}
+.contato > h4 > img {
+    margin-right: 5px;
+    height: 22px;
+    width: 22px;
+}
+.horario h4 {
+    color: #ec0404;
+}
+.sanduicherias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ec0404f1;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+.img-contato {
+    margin: 30px 0px;    
+}
+
+.sanduicherias img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.sanduicheria {
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+.sanduicheria h3, h4, h5 {
+    color: yellow;
+}
+@media (max-width: 1000px) {
+    .nome-loja {
+        font-size: 2em;
+    }
+    .img-loja img {
+        width: 92%;
+        margin-left: 17px;
+    }
+}

@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(211, 211, 211, 0.596);
+}
+.identificar {
+    text-align: center;
+}
+.identificar h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ec0404;
+}
+.identificar span {
+    color: blue;
+}
+.btn-opçoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-opçoes a {
+    color: white;
+}
+.btn-opçoes a:hover {
+    color: yellow;
+}
+.sanduiches {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.bebidas {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec0404;
+    color: white;
+}
+.combos {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ec0404;
+    color: white;
+}
+.informativo {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 25px 0px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu h4 {
+    color: #ec0404;
+}
+.menu-items {
+    gap: 20px;
+}
+.menu-items {
+    margin-bottom: 5px;
+    color: black;
+}
+.menu-items h5{
+    padding-left: 20px;
+    border-bottom: 2px solid lightslategray;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: black;
+}
+.items {
+    display: flex;
+}
+.item {
+    width: 95%;
+}
+.carnes {
+    display: flex;
+    justify-content: center;
+}
+.carnes-items {
+    display: flex;
+    gap: 20px;
+}
+.sanduicherias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-color: #ec0404f1;
+    padding-bottom: 30px;
+}
+.img-contato {
+    margin: 30px 0px;
+}
+.sanduicherias img {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.sanduicheria {
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+}
+.sanduicheria h3, h4, h5 {
+    color: yellow;
+}
+.carnes h5 {
+    color: #ec0404;
+}
+.adcionais h5 {
+    color: #ec0404;
+}
+span {
+    color: #ec0404;
+    font-size: 20pt;
+}
+.informativo-molho {
+    text-align: center;
+    margin-top: 40px;
+}
+.informativo-molho h4 {
+    color: #ec0404;
+    padding-top: 10px;
+}
+.informativo-molho h5 {
+    color: black;
+    padding-top: 10px;
+}
+.molho {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display: flex;
+}
+.img-molho {
+    width: 300px;
+    height: 300px;
+}
+.molho img {
+    width: 100%;
+}
+@media (max-width: 435px) {
+    .adcionais {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .adcionais-items-1 {
+        display: flex;
+        width: 60%;
+        gap: 10px;
+    }
+    .adcionais-items-2 {
+        display: flex;
+        width: 60%;
+        gap: 20px;
+    }
+    .sanduicherias {
+        margin-top: 30px;
+    }
+}
+@media (min-width: 436px) {
+    .adcionais {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0px 10px;
+    }
+    .adcionais-items-1 {
+        display: flex;
+        gap: 10px;
+    }
+    .adcionais-items-2 {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+}
